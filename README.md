@@ -1,13 +1,27 @@
-# Sample Hardhat Project
+# Hardhat Sample Project
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+## Development
 
-Try running some of the following tasks:
+### VSCode - Remote Container（Recommended）
 
-```shell
-npx hardhat help
-npx hardhat test
-GAS_REPORT=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.ts
-```
+**Pre-requisites**
+
+- Install Docker Desktop
+- Install VSCode
+
+**Quick start**
+
+- Command Palette（Mac: ⌘ + Shift + P, Win: ctrl + Shift + P）
+- Type - Open Folder in Container
+- Run `yarn install`
+
+### Local
+
+**Pre-requisites**
+
+- Install Node.js v16 latest
+- Install yarn via npm
+
+**Quick start**
+
+- Run `yarn install`
