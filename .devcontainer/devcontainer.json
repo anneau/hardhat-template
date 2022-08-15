@@ -18,7 +18,8 @@
             // Add the IDs of extensions you want installed when the container is created.
             "extensions": [
                 "dbaeumer.vscode-eslint",
-                "nomicfoundation.hardhat-solidity"
+                "nomicfoundation.hardhat-solidity",
+                "hbenl.vscode-mocha-test-adapter"
             ]
         }
     },
